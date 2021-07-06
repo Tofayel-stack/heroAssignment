@@ -1,0 +1,129 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    margin: auto;
+    display: block;
+    width: 80%;
+}
+.titleLine{
+    background: #E82B41;
+    display:block;
+    width: 123%;
+    margin: 0 -13%;
+    text-align: center;
+    padding: 18px;
+    font-size: 25px;
+}
+.titleLine h3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display:inline;
+}
+.titleLine button {
+    color: rgb(255 255 255);
+    background: transparent;
+    border: 2px solid white;
+    margin: 0px 0px 0px 33px;
+    font-size: 17px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* intro section style  */
+.introWrapper {
+    overflow: hidden;
+}
+
+.introMeta {
+    width: 50%;
+    float: right;
+    margin: 120px 0px;
+}
+
+.introPhoto {
+    width: 50%;
+    float: left;
+}
+
+.introPhoto img {
+    width: 100%;
+}
+.introMeta h1 {
+    font-size: 51px;
+    color: #000000a6;
+    margin-bottom: 70px;
+    margin-top: 0px;
+}
+.introMeta h1 span {
+    color: tomato;
+}
+
+.introMeta p {
+    font-family: arial;
+    color: #e31818b0;
+    font-weight: 500;
+    line-height: 2em;
+    margin-bottom: 45px;
+}
+button.btnStyle {
+    border: none;
+    outline: none;
+    background: transparent;
+}
+button.btnStyle a {
+    background: linear-gradient(86deg, #ff0032, #fb6830);
+    outline: none;
+    border: none;
+    padding: 15px 35px;
+    font-size: 18px;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+}
+button.btnStyle a:hover {
+    background: linear-gradient(86deg, #fb6830, #ff0032);
+}
+
+/* about section  */
+
+
+#aboutMe{
+    background:url("images/shapes/aboutBgImg.jpg");
+    padding: 50px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+}
+.aboutWrapper {
+    overflow: hidden;
+}
+
+.aboutMeta {
+    width: 40%;
+    float: left;
+    margin: 80px 0px;
+}
+
+.aboutPhoto {
+    width: 50%;
+    float: right;
+}
+
+.aboutPhoto img {
+    width: 100%;
+}
+h2.secName {
+    font-size: 40px;
+    color: #000000a6;
+    margin-bottom: 56px;
+}
+.aboutMeta p {
+    font-size: 17px;
+    font-family: arial;
+    line-height: 1.8;
+    color: #5b5b5bf7;
+    margin-bottom: 150px;
+}
