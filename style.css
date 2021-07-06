@@ -127,3 +127,73 @@ h2.secName {
     color: #5b5b5bf7;
     margin-bottom: 150px;
 }
+
+/* recipies section */
+section#recipies {
+    margin: 70px 0px;
+}
+.recipiesWrapper {display: table;}
+.recipiesTitle {
+    text-align: center;
+}
+
+.recipiesTitle p {
+    font-size: 22px;
+    font-family: arial;
+    color: #a3a3a3;
+    line-height: 1.5;
+    text-align: center;
+}
+.singleBox {
+    width: 27%;
+    float: left;
+    margin: 0px 3%;
+    box-shadow: 0px 0px 20px 4px #00000091;
+    box-sizing: border-box;
+    padding: 16px;
+    border-radius: 22px;
+}
+
+.foodPhoto img {width: 100%;height: 100%;}
+
+
+
+.foodPhoto {
+    height: 335px;
+    overflow: hidden;
+    border-radius: 22px;
+}
+
+.rMeta h3 {font-size: 30px;}
+
+.rMeta p {
+    font-family: arial;
+    font-size: 18px;
+    color: #7c7979;
+    text-align: center;
+}
+
+/* traffic */
+section#traffic {margin: 80px 0px;}
+
+.trafficWrapper {
+    overflow: hidden;
+    box-shadow: 7px 4px 16px 3px #615f5f80;
+    border-radius: 20px;
+}
+
+.singleboxUp {
+    float: left;
+    margin: 0 177px;
+    margin-bottom: 50px;
+}
+
+.singleboxUp h1 {
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+
+.singleboxUp span {
+    font-family: arial;
+    color: #696767;
+}
